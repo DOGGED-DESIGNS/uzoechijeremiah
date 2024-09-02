@@ -28,17 +28,19 @@ const Hero = () => {
       >
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2
-            className=" uppercase tracking-widest text-xs text-center text-blue-100 maxs-w-8-
+            className=" max-w-prose  uppercase tracking-widest text-xs text-center text-blue-100 maxs-w-8-
           "
           >
-            Dynamic web margic with next js
+            Elivate your digital presence.
           </h2>
           <TextGenerateEffect
             className=" text-balance  max-w-prose  text-center text-[40px] md:text-5xl lg:text-6xl"
-            words=" From Design to Code: Transforming Ideas into Interactive Experiences "
+            words=" From Design to Code. "
           />
-          <p className=" text-center mb-10">
-            Hi, i &apos;m Uzoechi Jeremiah a fullstack developer.
+          <p className=" text-center mb-10 m-w-prose ">
+            Hi, i &apos;m Uzoechi Jeremiah a full-stack developer with expertise
+            in building dynamic web and mobile applications using the latest
+            technologies
           </p>
 
           <a href="#about">
