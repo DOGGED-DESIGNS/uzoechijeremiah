@@ -2,19 +2,22 @@ import React from "react";
 
 const MagicButton = ({
   title,
+  href,
   icon,
   position,
   handleClick,
   otherClasses,
 }: {
   title: string;
+  href?: string;
   icon: React.ReactNode;
   position: string;
   handleClick?: () => void;
   otherClasses?: string;
 }) => {
   return (
-    <button
+    <a
+      href={href}
       onClick={handleClick}
       className="  relative inline-flex  overflow-hidden rounded-lg p-[2px] focus:outline-none focus:ring-1 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50"
     >
@@ -26,7 +29,7 @@ const MagicButton = ({
         {title}
         {position === "right" && icon}
       </span>
-    </button>
+    </a>
   );
 };
 

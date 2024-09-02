@@ -35,7 +35,7 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
             className=" text-balance  max-w-prose  text-center text-[40px] md:text-5xl lg:text-6xl"
-            words=" Transforming contents into seemless user interface "
+            words=" From Design to Code: Transforming Ideas into Interactive Experiences "
           />
           <p className=" text-center mb-10">
             Hi, i &apos;m Uzoechi Jeremiah a fullstack developer.
@@ -43,9 +43,10 @@ const Hero = () => {
 
           <a href="#about">
             <MagicButton
+              href="#projects"
               icon={<FaLocationArrow />}
               position="left"
-              title=" show my work and other things oo"
+              title="My Projects"
             />
           </a>
         </div>
